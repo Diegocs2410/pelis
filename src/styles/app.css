@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: #223;
+}
+.card {
+  background-color: rgb(39, 76, 104);
+  color: white;
+  transition: all 0.3s;
+}
+.card:hover {
+  transition: all 0.3s;
+  transform: scale(1.1);
+}
+p > span {
+  color: chocolate;
+  font-weight: 900;
+}
